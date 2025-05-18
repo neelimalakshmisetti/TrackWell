@@ -1,0 +1,78 @@
+/* Track-Well Custom Styles */
+body {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    animation: bounceIn 1.5s;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animated-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5e60ce;
+    animation: fadeInText 2s;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px #fff4;
+}
+
+@keyframes fadeInText {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 24px #0001;
+}
+
+.btn-custom {
+    background: #5e60ce;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.btn-custom:hover {
+    background: #6930c3;
+    color: #fff;
+}
+
+/* Animations for options */
+.option-btn {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.option-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 4px 16px #5e60ce44;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .animated-title {
+        font-size: 1.5rem;
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+}
