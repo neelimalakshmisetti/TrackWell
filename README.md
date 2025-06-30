@@ -71,6 +71,13 @@ Have ideas for improvement?
 Feel free to fork the repository, open issues, or submit pull requests. All contributions are welcome!
 
 ⸻
+👥 Team
+
+This project was developed as part of a team effort
+Neelima L
+Olive Chaitanya M
+Praneeth P
+Harshith Reddy S
 
 👤 Author
 
